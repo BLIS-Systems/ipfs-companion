@@ -147,7 +147,7 @@
     "lru-cache": "5.1.1",
     "merge-options": "2.0.0",
     "mime-types": "2.1.25",
-    "multiaddr": "7.2.1",
+    "multiaddr": "8.0.0",
     "multiaddr-to-uri": "5.0.0",
     "p-memoize": "4.0.0",
     "p-queue": "6.2.1",
