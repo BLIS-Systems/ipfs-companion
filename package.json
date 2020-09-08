@@ -118,7 +118,7 @@
     "webpack": "4.42.0",
     "webpack-bundle-analyzer": "3.6.1",
     "webpack-cli": "3.3.11",
-    "webpack-merge": "4.2.2"
+    "webpack-merge": "5.1.3"
   },
   "dependencies": {
     "@material/switch": "6.0.0",
