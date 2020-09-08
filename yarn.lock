@@ -10632,7 +10632,7 @@ multiaddr-to-uri@^5.0.0:
   dependencies:
     multiaddr "^6.1.0"
 
-multiaddr@6.1.0, multiaddr@^4.0.0, multiaddr@^5.0.0, multiaddr@^6.0.3, multiaddr@^6.0.4, multiaddr@^6.0.6, multiaddr@^6.1.0, multiaddr@^6.1.1, multiaddr@^7.2.1, multiaddr@^8.0.0:
+multiaddr@6.1.0, multiaddr@^4.0.0, multiaddr@^5.0.0, multiaddr@^6.0.3, multiaddr@^6.0.4, multiaddr@^6.0.6, multiaddr@^6.1.0, multiaddr@^6.1.1, multiaddr@^8.0.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/multiaddr/-/multiaddr-6.1.0.tgz#1f93afce58a33db5cc32a5917d8a14105d94330e"
   integrity sha512-+XTP3OzG2m6JVcjxA9QBmGDr0Vk8WwnohC/fCC3puXb5qJqfJwLVJLEtdTc6vK7ri/hw+Nn4wyT4LkZaPnvGfQ==
@@ -15402,13 +15402,13 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-uri-to-multiaddr@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/uri-to-multiaddr/-/uri-to-multiaddr-3.0.2.tgz#161d196d3f20837c232abc71636aa69aee3ede43"
-  integrity sha512-I2AO1Y/3hUI7KfHiB6Py64lZ02jAB+hqlMVBzDRn4u6d85x+7tJhRwGzdKEYn8/1kDBtWFZVkHvgepF7Z+C1og==
+uri-to-multiaddr@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/uri-to-multiaddr/-/uri-to-multiaddr-4.0.0.tgz#ec2e113811674ca297ae6f278cf5994e29813d61"
+  integrity sha512-6zQ1uBlE+F//46CBA3lx3vBMhybSvdGJqgNyQPobSDsWGrDDdmJM/f95GPaswXAGFlRHPqOjrGKT11IcKmIfaA==
   dependencies:
     is-ip "^3.1.0"
-    multiaddr "^7.2.1"
+    multiaddr "^8.0.0"
 
 uri-to-multiaddr@^3.0.1:
   version "3.0.1"
