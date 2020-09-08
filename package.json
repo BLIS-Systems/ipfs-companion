@@ -156,7 +156,7 @@
     "postmsg-rpc": "2.4.0",
     "pull-file-reader": "1.0.2",
     "readable-stream": "3.4.0",
-    "tachyons": "4.11.1",
+    "tachyons": "4.12.0",
     "tar-stream": "2.1.2",
     "timers-browserify-full": "0.0.1",
     "uri-to-multiaddr": "3.0.2",
