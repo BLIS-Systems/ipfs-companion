@@ -3196,14 +3196,14 @@ chokidar@^2.1.8:
   optionalDependencies:
     fsevents "^1.2.7"
 
-choo@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/choo/-/choo-7.0.0.tgz#a89687e83a69c9d7d96c8208cfad5ae77b154aa5"
-  integrity sha512-amHTsaD1QT5rNtuTTEomvp0VRzySVYU3fOttZq0M4mLqK0LGl9ySXXb2iw7JFiziegocq402glzEFkktOl+vyw==
+choo@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/choo/-/choo-7.1.0.tgz#67eb2e61a496d574770e1cc659ea0f703f340fb6"
+  integrity sha512-E4Gcpw1W0vACY3jkuwsVQUTQcriaIsLgS8DZJXzZ3iuJez8ZY3yoAdYwJlbLFL9OMglNhfrb/E/1HBcUeRuisA==
   dependencies:
     document-ready "^2.0.1"
     nanoassert "^1.1.0"
-    nanobus "^4.2.0"
+    nanobus "^4.4.0"
     nanocomponent "^6.5.0"
     nanohref "^3.0.0"
     nanohtml "^1.1.0"
@@ -10750,7 +10750,7 @@ nanobench@^2.1.0, nanobench@^2.1.1:
     mutexify "^1.1.0"
     pretty-hrtime "^1.0.2"
 
-nanobus@^4.2.0:
+nanobus@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/nanobus/-/nanobus-4.4.0.tgz#e5c20846fa17cff01ef5aac301410d1e541f81ed"
   integrity sha512-Hv9USGyH8EsPy0o8pPWE7x3YRIfuZDgMBirzjU6XLebhiSK2g53JlfqgolD0c39ne6wXAfaBNcIAvYe22Bav+Q==
