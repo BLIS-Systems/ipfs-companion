@@ -106,7 +106,7 @@
     "request-progress": "3.0.0",
     "shx": "0.3.2",
     "simple-progress-webpack-plugin": "1.1.2",
-    "sinon": "7.5.0",
+    "sinon": "9.0.3",
     "sinon-chrome": "3.0.1",
     "standard": "14.3.1",
     "style-loader": "1.2.1",
