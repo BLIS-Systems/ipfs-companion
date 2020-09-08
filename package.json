@@ -143,7 +143,7 @@
     "is-fqdn": "1.0.1",
     "is-ipfs": "2.0.0",
     "is-svg": "4.2.1",
-    "it-to-stream": "0.1.1",
+    "it-to-stream": "0.1.2",
     "lru-cache": "5.1.1",
     "merge-options": "3.0.1",
     "mime-types": "2.1.25",
