@@ -8411,10 +8411,10 @@ is-string@^1.0.4, is-string@^1.0.5:
   resolved "https://registry.yarnpkg.com/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
   integrity sha512-buY6VNRjhQMiF1qWDouloZlQbRhDPCebwxSjxMjxgemYT46YMd2NR0/H+fBhEfWX4A/w9TBJ+ol+okqJKFE6vQ==
 
-is-svg@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.2.0.tgz#3324896f8cc9c4f04b8435a5cf811593d72aa251"
-  integrity sha512-ZJ3FYzcq3cxJHvslBXQYoNHkdEr7QTjHS5+lMrD+QkZHQ9GFTGI22/Isd3PMleJbeSigfzL+F0kQNQcepvGibw==
+is-svg@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.2.1.tgz#095b496e345fec9211c2a7d5d021003e040d6f81"
+  integrity sha512-PHx3ANecKsKNl5y5+Jvt53Y4J7MfMpbNZkv384QNiswMKAWIbvcqbPz+sYbFKJI8Xv3be01GSFniPmoaP+Ai5A==
   dependencies:
     html-comment-regex "^1.1.2"
 
