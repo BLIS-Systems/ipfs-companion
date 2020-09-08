@@ -7249,10 +7249,10 @@ ipfs-block@^0.8.0, ipfs-block@~0.8.0, ipfs-block@~0.8.1:
     cids "~0.7.0"
     class-is "^1.1.0"
 
-ipfs-css@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ipfs-css/-/ipfs-css-1.1.0.tgz#a7a0494b51fe62232b6889c2a9feda42a7b40a3f"
-  integrity sha512-MXADP4wVdPP4jubuFR6MeJJUEuuSEmBnx0ST0vGhUdhN5v0R4PN5XL6Cdm9M3WwwAyFjV2FOyJAnP/WQToKRTg==
+ipfs-css@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ipfs-css/-/ipfs-css-1.2.0.tgz#9e41fc09b40671e0a5834f1be369fa8b717c6092"
+  integrity sha512-2gnYRkPbgldiXSjdfbMUN2sGLr9DuVaj6nL2aAQvAE5buEj9mhUEkqQ8er6w6uqzlyFWnpSdh5IsiYu4cN4dRw==
 
 ipfs-http-client@40.0.1:
   version "40.0.1"
