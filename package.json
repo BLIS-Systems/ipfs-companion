@@ -87,7 +87,7 @@
     "cross-env": "6.0.3",
     "css-loader": "3.5.3",
     "download-cli": "1.1.1",
-    "fakefile": "0.0.9",
+    "fakefile": "0.0.10",
     "file-loader": "6.0.0",
     "firefox-addons-add-update-version": "1.0.1",
     "fs-promise": "2.0.3",
