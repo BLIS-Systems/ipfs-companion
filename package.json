@@ -157,7 +157,7 @@
     "pull-file-reader": "1.0.2",
     "readable-stream": "3.6.0",
     "tachyons": "4.12.0",
-    "tar-stream": "2.1.2",
+    "tar-stream": "2.1.3",
     "timers-browserify-full": "0.0.1",
     "uri-to-multiaddr": "4.0.0",
     "webextension-polyfill": "0.6.0",
