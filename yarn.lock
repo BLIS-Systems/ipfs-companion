@@ -10528,10 +10528,10 @@ merge-descriptors@1.0.1:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
   integrity sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
 
-merge-options@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-3.0.1.tgz#8ffb83cb7c4fb637c6abc7ce784682cd2172fb73"
-  integrity sha512-PZAJhpYGQhb51rYIXEYysFmpAmEu49Zq6XEMw2rRcLaCOkLiA6kM7Hm23K5EamRjSEmYZfIGcsndxEjzsrJfGg==
+merge-options@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-3.0.2.tgz#184a6eaa2482163abc01254a7899888279c3d75b"
+  integrity sha512-7TM9KD5J6TfT7Frs7PUnhA7Agkuag/vG9BdDbFtP54mrquqflOTJ30QXzlpI/ZX2cLDi6lw96eRF3ZhxkUVgKw==
   dependencies:
     is-plain-obj "^2.1.0"
 
