@@ -8192,10 +8192,10 @@ is-fn@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-fn/-/is-fn-1.0.0.tgz#9543d5de7bcf5b08a22ec8a20bae6e286d510d8c"
   integrity sha1-lUPV3nvPWwiiLsiiC65uKG1RDYw=
 
-is-fqdn@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/is-fqdn/-/is-fqdn-1.0.1.tgz#f3ed9cd5a20238449ae510e10d81258dafca9b70"
-  integrity sha1-8+2c1aICOESa5RDhDYElja/Km3A=
+is-fqdn@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/is-fqdn/-/is-fqdn-2.0.1.tgz#2c47b17007b780cd034922ef86a4b3aad0901352"
+  integrity sha512-oQgLvyS2gWO5ZT3EbgdpkIN5fORg5Sadn0SQ4seTwt/fuKxQHrg8k/BaI02dGgcek+Gc2zxrd1tBo7h5HyBdNA==
 
 is-fullwidth-code-point@^1.0.0:
   version "1.0.0"
