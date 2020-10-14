@@ -112,7 +112,7 @@
     "style-loader": "2.0.0",
     "tar": "6.0.5",
     "terser": "5.3.5",
-    "terser-webpack-plugin": "4.2.3",
+    "terser-webpack-plugin": "5.0.0",
     "transform-loader": "0.2.4",
     "web-ext": "5.2.0",
     "webpack": "5.1.0",
