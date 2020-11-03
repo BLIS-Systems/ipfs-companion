@@ -121,7 +121,7 @@
     "webpack-merge": "5.3.0"
   },
   "dependencies": {
-    "@material/switch": "7.0.0",
+    "@material/switch": "8.0.0",
     "browser-process-hrtime": "1.0.0",
     "choo": "7.1.0",
     "chrome-dgram": "3.0.6",
