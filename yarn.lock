@@ -3658,7 +3658,7 @@ cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2:
+cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -4810,7 +4810,7 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^4.0.0, execa@^4.0.3, execa@^4.1.0:
+execa@^4.0.0, execa@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
   integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
@@ -4823,6 +4823,21 @@ execa@^4.0.0, execa@^4.0.3, execa@^4.1.0:
     npm-run-path "^4.0.0"
     onetime "^5.1.0"
     signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-5.0.0.tgz#4029b0007998a841fbd1032e5f4de86a3c1e3376"
+  integrity sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^6.0.0"
+    human-signals "^2.1.0"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.1"
+    onetime "^5.1.2"
+    signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
 expand-brackets@^2.1.4:
@@ -5537,6 +5552,11 @@ get-stream@^5.0.0, get-stream@^5.1.0:
   dependencies:
     pump "^3.0.0"
 
+get-stream@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.0.tgz#3e0012cb6827319da2706e601a1583e8629a6718"
+  integrity sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
+
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
@@ -5987,6 +6007,11 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
+human-signals@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
+  integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
 husky@4.3.6:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.6.tgz#ebd9dd8b9324aa851f1587318db4cccb7665a13c"
@@ -6268,25 +6293,23 @@ ipfs-block@^0.8.0:
     cids "~0.7.0"
     class-is "^1.1.0"
 
-ipfs-cli@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/ipfs-cli/-/ipfs-cli-0.2.2.tgz#24223ba5f414e2f85ad2908cd8c1399e47192fef"
-  integrity sha512-9DhIdTd8P/uvBv+IdhGjHEl2lpeXm8x2sj30PLddBHFo9PHOWUfqwo7FYHYIzn6MiakL0XWph4HAKX9Jw0iHJA==
+ipfs-cli@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/ipfs-cli/-/ipfs-cli-0.2.3.tgz#3bb9dd72100f9f41e9380c005d4d6b2898e753c1"
+  integrity sha512-3DGUh/V9INVPG5dv0bT1DQpjVM5diKEVrVYSMtk/h5enVPbNHTZ+Dz4zOwjRsob5QQNkdVQWdHnhCcRHNyWFCA==
   dependencies:
     bignumber.js "^9.0.0"
     byteman "^1.3.5"
     cid-tool "^1.0.0"
     cids "^1.0.0"
     debug "^4.1.1"
-    dlv "^1.1.3"
     err-code "^2.0.3"
-    execa "^4.0.3"
+    execa "^5.0.0"
     get-folder-size "^2.0.1"
-    ipfs-core "^0.3.0"
-    ipfs-core-utils "^0.5.3"
-    ipfs-http-client "^48.1.2"
-    ipfs-http-gateway "^0.1.3"
-    ipfs-http-server "^0.1.3"
+    ipfs-core "^0.3.1"
+    ipfs-core-utils "^0.5.4"
+    ipfs-daemon "^0.3.2"
+    ipfs-http-client "^48.1.3"
     ipfs-repo "^7.0.0"
     ipfs-utils "^5.0.0"
     ipld-dag-cbor "^0.17.0"
@@ -6297,12 +6320,7 @@ ipfs-cli@^0.2.2:
     it-glob "0.0.10"
     it-pipe "^1.1.0"
     jsondiffpatch "^0.4.1"
-    just-safe-set "^2.1.0"
-    libp2p "^0.29.3"
     libp2p-crypto "^0.18.0"
-    libp2p-delegated-content-routing "^0.8.0"
-    libp2p-delegated-peer-routing "^0.8.0"
-    libp2p-webrtc-star "^0.20.1"
     mafmt "^8.0.0"
     multiaddr "^8.0.0"
     multiaddr-to-uri "^6.0.0"
@@ -6316,11 +6334,8 @@ ipfs-cli@^0.2.2:
     streaming-iterables "^5.0.2"
     uint8arrays "^1.1.0"
     yargs "^16.0.3"
-  optionalDependencies:
-    prom-client "^12.0.0"
-    prometheus-gc-stats "^0.6.0"
 
-ipfs-core-utils@^0.5.3, ipfs-core-utils@^0.5.4:
+ipfs-core-utils@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/ipfs-core-utils/-/ipfs-core-utils-0.5.4.tgz#c7fa508562086be65cebb51feb13c58abbbd3d8d"
   integrity sha512-V+OHCkqf/263jHU0Fc9Rx/uDuwlz3PHxl3qu6a5ka/mNi6gucbFuI53jWsevCrOOY9giWMLB29RINGmCV5dFeQ==
@@ -6340,10 +6355,10 @@ ipfs-core-utils@^0.5.3, ipfs-core-utils@^0.5.4:
     timeout-abort-controller "^1.1.1"
     uint8arrays "^1.1.0"
 
-ipfs-core@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ipfs-core/-/ipfs-core-0.3.0.tgz#eb2f4a62d5adb2575e0ba3a43508e4f9d17818db"
-  integrity sha512-uBcYGsIM8lb8dixDvZ09OrMM5nBsvMQX9tUFS3+oo24JRhGKMWtDVV3umn26mXygobdQfGCTZFqjVMxoLssVEA==
+ipfs-core@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/ipfs-core/-/ipfs-core-0.3.1.tgz#059bca87fa50f5a26f007e11526c530b9e7abbf9"
+  integrity sha512-d94i8Bvhm+0a38rZG2q7EcQXcVT4cTkjCZAu7ZZ4HOWyB0EevqrxH6D7VK3zv6fe+iOC6iv4qrB+Wtt1pE6NVw==
   dependencies:
     array-shuffle "^1.0.1"
     bignumber.js "^9.0.0"
@@ -6361,11 +6376,11 @@ ipfs-core@^0.3.0:
     interface-datastore "^2.0.0"
     ipfs-bitswap "^4.0.0"
     ipfs-block-service "^0.18.0"
-    ipfs-core-utils "^0.5.3"
+    ipfs-core-utils "^0.5.4"
     ipfs-repo "^7.0.0"
     ipfs-unixfs "^2.0.3"
     ipfs-unixfs-exporter "^3.0.4"
-    ipfs-unixfs-importer "^4.0.0"
+    ipfs-unixfs-importer "^5.0.0"
     ipfs-utils "^5.0.0"
     ipld "^0.28.0"
     ipld-block "^0.11.0"
@@ -6401,7 +6416,6 @@ ipfs-core@^0.3.0:
     multicodec "^2.0.1"
     multihashing-async "^2.0.1"
     native-abort-controller "~0.0.3"
-    p-defer "^3.0.0"
     p-queue "^6.6.1"
     parse-duration "^0.4.4"
     peer-id "^0.14.1"
@@ -6413,7 +6427,29 @@ ipfs-css@1.3.0:
   resolved "https://registry.yarnpkg.com/ipfs-css/-/ipfs-css-1.3.0.tgz#e2bf680b2c7590b85ad5cb04d811bbdd3f7e9c3f"
   integrity sha512-NXou2Gc5ofjdyEedZZSr7Zzfd/WQIf/LyWktyv28xhA4R8FnxngXbuXFuiN4JnB6qx2GWjV7o1zU9Mp0SvJ7eg==
 
-ipfs-http-client@48.1.3, ipfs-http-client@^48.1.2:
+ipfs-daemon@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/ipfs-daemon/-/ipfs-daemon-0.3.2.tgz#e2c10b98d248f38f7ecde39fa3e546ba43e3cdf6"
+  integrity sha512-MBpwB0zpYU17/ZZ4jGMGNvOHx6SYOOZyTfViw+dy/P3JZmeTZBzhPJQOZ0vwwnJI7OIwWscEakJWV4q4c6hrJw==
+  dependencies:
+    debug "^4.1.1"
+    dlv "^1.1.3"
+    ipfs-core "^0.3.1"
+    ipfs-http-client "^48.1.3"
+    ipfs-http-gateway "^0.1.4"
+    ipfs-http-server "^0.1.4"
+    ipfs-utils "^5.0.0"
+    just-safe-set "^2.1.0"
+    libp2p "^0.29.3"
+    libp2p-delegated-content-routing "^0.8.0"
+    libp2p-delegated-peer-routing "^0.8.0"
+    libp2p-webrtc-star "^0.20.1"
+    multiaddr "^8.0.0"
+  optionalDependencies:
+    prom-client "^12.0.0"
+    prometheus-gc-stats "^0.6.0"
+
+ipfs-http-client@48.1.3, ipfs-http-client@^48.1.3:
   version "48.1.3"
   resolved "https://registry.yarnpkg.com/ipfs-http-client/-/ipfs-http-client-48.1.3.tgz#d9b91b1f65d54730de92290d3be5a11ef124b400"
   integrity sha512-+JV4cdMaTvYN3vd4r6+mcVxV3LkJXzc4kn2ToVbObpVpdqmG34ePf1KlvFF8A9gjcel84WpiP5xCEV/IrisPBA==
@@ -6444,10 +6480,10 @@ ipfs-http-client@48.1.3, ipfs-http-client@^48.1.2:
     stream-to-it "^0.2.2"
     uint8arrays "^1.1.0"
 
-ipfs-http-gateway@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/ipfs-http-gateway/-/ipfs-http-gateway-0.1.3.tgz#0a5689d692bd802cea72a3a5866396f2636be846"
-  integrity sha512-SwBRSvwwXxlYEUBlDOBngmKFifnCFjs7HM90mgJnRjahDZzGV8YKAZpVLys0szLybz+pqGKK7LxSo7+ALS2hKQ==
+ipfs-http-gateway@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/ipfs-http-gateway/-/ipfs-http-gateway-0.1.4.tgz#b91e88484b5b3ffddf9cc8359ecd6452aa350744"
+  integrity sha512-/WuCFC5k31DiIIplGatyJnMmJ74YLnv12xU5DR1rr3E7abKLdyyvaca4cQz3iz2hFcTKvnD3+rRelbXH785JiA==
   dependencies:
     "@hapi/ammo" "^5.0.1"
     "@hapi/boom" "^9.1.0"
@@ -6455,7 +6491,7 @@ ipfs-http-gateway@^0.1.3:
     cids "^1.0.0"
     debug "^4.1.1"
     hapi-pino "^8.3.0"
-    ipfs-core-utils "^0.5.3"
+    ipfs-core-utils "^0.5.4"
     ipfs-http-response "^0.6.0"
     is-ipfs "^2.0.0"
     it-last "^1.0.4"
@@ -6481,10 +6517,10 @@ ipfs-http-response@0.6.0, ipfs-http-response@^0.6.0:
     multihashes "^3.0.1"
     p-try-each "^1.0.1"
 
-ipfs-http-server@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/ipfs-http-server/-/ipfs-http-server-0.1.3.tgz#5f5c06c12a3d29d27eff56c806d7ca893c428789"
-  integrity sha512-Hn7mEgfifHSVL1DFO1mIIytYiOW3Zlav+t6yQjdU+mgTzyH/4C7vwbz7V6ib5IfShROrfmeE6ahkt4IvEb9wxA==
+ipfs-http-server@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/ipfs-http-server/-/ipfs-http-server-0.1.4.tgz#fef174c86a09514bbeef7bd8e11dd12448f4da39"
+  integrity sha512-EyGqwvYpOJHIW6eJ5te2UjjMA073JwabL7oNfCvITFb5ZcRKd76+ox0TDSHlkKUeWN8JP7T/00wYRj+8km2Oyg==
   dependencies:
     "@hapi/boom" "^9.1.0"
     "@hapi/content" "^5.0.2"
@@ -6494,8 +6530,8 @@ ipfs-http-server@^0.1.3:
     dlv "^1.1.3"
     err-code "^2.0.3"
     hapi-pino "^8.3.0"
-    ipfs-core-utils "^0.5.3"
-    ipfs-http-gateway "^0.1.3"
+    ipfs-core-utils "^0.5.4"
+    ipfs-http-gateway "^0.1.4"
     ipfs-unixfs "^2.0.3"
     ipld-dag-pb "^0.20.0"
     it-all "^1.0.4"
@@ -6623,16 +6659,16 @@ ipfs-unixfs-exporter@^3.0.4:
     it-last "^1.0.1"
     multihashing-async "^2.0.0"
 
-ipfs-unixfs-importer@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ipfs-unixfs-importer/-/ipfs-unixfs-importer-4.0.0.tgz#da9906225fbe0eb9d3ebed05c6ed4a41b5812376"
-  integrity sha512-ybTcgjNBaB6azQz8jJYESweATJFoc6D+Xo8USM0GahRx9xlFS+4qjnmGbC6H9RcFFt81amcP/P1zX9v83wo3cA==
+ipfs-unixfs-importer@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ipfs-unixfs-importer/-/ipfs-unixfs-importer-5.0.0.tgz#f87bc69f99b08ef5d904ecdcd2fc74e9360122ca"
+  integrity sha512-bvdnCXwwCj72w/FQ7o6XcvrcbCUgXrruK0UZOfhl/mf44Nv0DWyn1Y4hQF/u63rJvYLQdAMlqniAAtFQpHQhcg==
   dependencies:
     bl "^4.0.0"
     err-code "^2.0.0"
     hamt-sharding "^1.0.0"
     ipfs-unixfs "^2.0.4"
-    ipfs-utils "^4.0.0"
+    ipfs-utils "^5.0.0"
     ipld-dag-pb "^0.20.0"
     it-all "^1.0.1"
     it-batch "^1.0.3"
@@ -6739,14 +6775,14 @@ ipfs-utils@^5.0.0:
     node-fetch "^2.6.0"
     stream-to-it "^0.2.0"
 
-ipfs@0.52.2:
-  version "0.52.2"
-  resolved "https://registry.yarnpkg.com/ipfs/-/ipfs-0.52.2.tgz#e568d6b5818e3c2deddf7e7230ce7b87fb3b8537"
-  integrity sha512-2OZe6HyHGzSfdv55RFuw89n43zj+hPGLfmsz0h2LL4OH7ERtQVCH/5foDEoV6NJsXnBnps8w6adCtyrZeze9IQ==
+ipfs@0.52.3:
+  version "0.52.3"
+  resolved "https://registry.yarnpkg.com/ipfs/-/ipfs-0.52.3.tgz#4a1e1651da197fb8dfdcd01abd20308198059b66"
+  integrity sha512-zCd2Ziq1GYDJizXdoAj5nof325i3mx2kzOhG6E+xdEK6FcK6kQwKendaBlQHwTbzHLqLI7ITxsepQzFWNopI2g==
   dependencies:
     debug "^4.1.1"
-    ipfs-cli "^0.2.2"
-    ipfs-core "^0.3.0"
+    ipfs-cli "^0.2.3"
+    ipfs-core "^0.3.1"
     ipfs-repo "^7.0.0"
     semver "^7.3.2"
     update-notifier "^5.0.0"
@@ -9993,7 +10029,7 @@ npm-run-path@^2.0.0:
   dependencies:
     path-key "^2.0.0"
 
-npm-run-path@^4.0.0:
+npm-run-path@^4.0.0, npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
@@ -10193,6 +10229,13 @@ onetime@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgz#fff0f3c91617fe62bb50189636e99ac8a6df7be5"
   integrity sha512-5NcSkPHhwTVFIQN+TUqXoS5+dlElHXdpAWu9I0HP20YOtIi+aZ0Ct82jdlILDxjLEAWwvm+qj1m6aEtsDVmm6Q==
+  dependencies:
+    mimic-fn "^2.1.0"
+
+onetime@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
 
@@ -12126,6 +12169,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+signal-exit@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
+  integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
 signed-varint@^2.0.1:
   version "2.0.1"
