@@ -5013,7 +5013,7 @@ file-loader@6.2.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-file-type@16.1.0:
+file-type@16.1.0, file-type@^16.0.0:
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-16.1.0.tgz#1c8a4458b2103e07d2b49ae7f76384abafe86529"
   integrity sha512-G4Klqf6tuprtG0pC4r9kni4Wv8XhAAsfHphVqsQGA+YiOlPAO40BZduDqKfv0RFsu9q9ZbFObWfwszY/NqhEZw==
@@ -5027,16 +5027,6 @@ file-type@5.2.0, file-type@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-5.2.0.tgz#2ddbea7c73ffe36368dfae49dc338c058c2b8ad6"
   integrity sha1-LdvqfHP/42No365J3DOMBYwritY=
-
-file-type@^14.7.1:
-  version "14.7.1"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-14.7.1.tgz#f748732b3e70478bff530e1cf0ec2fe33608b1bb"
-  integrity sha512-sXAMgFk67fQLcetXustxfKX+PZgHIUFn96Xld9uH8aXPdX3xOp0/jg9OdouVTvQrf7mrn+wAa4jN/y9fUOOiRA==
-  dependencies:
-    readable-web-to-node-stream "^2.0.0"
-    strtok3 "^6.0.3"
-    token-types "^2.0.0"
-    typedarray-to-buffer "^3.1.5"
 
 file-type@^3.8.0:
   version "3.9.0"
@@ -6501,13 +6491,13 @@ ipfs-http-gateway@^0.1.4:
     uint8arrays "^1.1.0"
     uri-to-multiaddr "^4.0.0"
 
-ipfs-http-response@0.6.0, ipfs-http-response@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/ipfs-http-response/-/ipfs-http-response-0.6.0.tgz#95d6d8e7617a35b69a0b3dc551b5f728a985f941"
-  integrity sha512-x1x4ZGvR0azgasT2ql6qKjiH+aPVjra9rJbNq89KzQVxrQLf9zlEHfLzfL7p8m0iYY4MiD+fW+QZF8xA18Xh2g==
+ipfs-http-response@0.6.1, ipfs-http-response@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/ipfs-http-response/-/ipfs-http-response-0.6.1.tgz#fa1fc685264318112481195898f56178522c57b8"
+  integrity sha512-tfvgB0xtciDyIsjrpAooyLvj28rKsnFXAOcPjbWdB8atejo9Rh96bkcHa+mq51KZLo0VpAUYJCVCV38gcIpObQ==
   dependencies:
     debug "^4.1.1"
-    file-type "^14.7.1"
+    file-type "^16.0.0"
     filesize "^6.1.0"
     it-buffer "^0.1.1"
     it-concat "^1.0.0"
@@ -7507,14 +7497,7 @@ it-buffer@^0.1.1, it-buffer@^0.1.2:
     bl "^4.0.2"
     buffer "^5.5.0"
 
-it-concat@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/it-concat/-/it-concat-1.0.1.tgz#4ac61c1b0a2185c97e1bd004d45f625902f7d728"
-  integrity sha512-ca7tnIqSpPycty9K+x08OwFj9kLSrsXgENn7ry2mNXlFlUkgEZe1/xvBjwnUlUEHvnITMj4Mq7ozPm1VaOm8FQ==
-  dependencies:
-    bl "^4.0.0"
-
-it-concat@^1.0.1:
+it-concat@^1.0.0, it-concat@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/it-concat/-/it-concat-1.0.2.tgz#7229fedb935bcf7b2fcac23e040e7588b34143e6"
   integrity sha512-YZtXOe10qBcTDOsz59AscfmsKRoVPYX5AFxCans2L/QL20Jah1H1/+wzWDaJj8zu0KiA9gys3vBoZIZwhsUeeg==
@@ -11481,11 +11464,6 @@ readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.0.5, readable
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
-
-readable-web-to-node-stream@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/readable-web-to-node-stream/-/readable-web-to-node-stream-2.0.0.tgz#751e632f466552ac0d5c440cc01470352f93c4b7"
-  integrity sha512-+oZJurc4hXpaaqsN68GoZGQAQIA3qr09Or4fqEsargABnbe5Aau8hFn6ISVleT3cpY/0n/8drn7huyyEvTbghA==
 
 readable-web-to-node-stream@^3.0.0:
   version "3.0.0"
