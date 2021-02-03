@@ -14358,10 +14358,10 @@ webpack@5.19.0:
     watchpack "^2.0.0"
     webpack-sources "^2.1.1"
 
-webrtc-ips@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/webrtc-ips/-/webrtc-ips-0.1.4.tgz#c1806a1dd0a91ca01eeb44997ef2133c2a865e53"
-  integrity sha512-zjpkAmPDxkllbjprCa14s9bpqlb+pqe17T0+uF/SfJTM5XcgUdMP1RDwFcgANIYvZgYbkK075Ok+82YPodvm+A==
+webrtc-ips@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/webrtc-ips/-/webrtc-ips-0.2.0.tgz#af9d09677bd43a6cadfc2cc12fd8d31e6e53ce03"
+  integrity sha512-5TaJMFMIUMycsDBcg5QzRe1RlD2akDGfYs5+9+0+1DgTZ858KfyXjA8oIfR5xq3Y3X/ILGzRZ/mkN3/yuC+kcA==
   dependencies:
     promise-controller "^0.3.0"
 

@@ -161,7 +161,7 @@
     "timers-browserify-full": "0.0.1",
     "uri-to-multiaddr": "4.0.0",
     "webextension-polyfill": "0.7.0",
-    "webrtc-ips": "0.1.4"
+    "webrtc-ips": "0.2.0"
   },
   "engines": {
     "node": ">=10.0.0",
