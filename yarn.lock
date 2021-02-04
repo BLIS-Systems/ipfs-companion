@@ -7412,7 +7412,20 @@ is-ip@^3.1.0:
   dependencies:
     ip-regex "^4.0.0"
 
-is-ipfs@2.0.0, is-ipfs@^2.0.0:
+is-ipfs@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-ipfs/-/is-ipfs-3.0.0.tgz#44a5180f77a2212dfb492c4a6d59cf26b3754c9d"
+  integrity sha512-AwOnxpT9p0wl8/xJL7MAZpjg+wcCdp5O+JDYY8GimSKIkFF9TY3eJvq8hen+VF3x1ISGZQCK9tiGQgx4LtOl8w==
+  dependencies:
+    cids "^1.1.5"
+    iso-url "^1.0.0"
+    mafmt "^8.0.4"
+    multiaddr "^8.1.2"
+    multibase "^3.1.1"
+    multihashes "^3.1.2"
+    uint8arrays "^2.0.5"
+
+is-ipfs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-ipfs/-/is-ipfs-2.0.0.tgz#c046622e4daf5435b671aeb9739a832107e06805"
   integrity sha512-X4Cg/JO+h/ygBCrIQSMgicHRLo5QpB+i5tHLhFgGBksKi3zvX6ByFCshDxNBvcq4NFxF3coI2AaLqwzugNzKcw==
@@ -9290,14 +9303,7 @@ mafmt@^6.0.0:
   dependencies:
     multiaddr "^6.1.0"
 
-mafmt@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/mafmt/-/mafmt-8.0.0.tgz#6a9ad6aafa66d484310698baf2acff3b8ecf1d74"
-  integrity sha512-MdaeaqZxjoYYWvlhr1GQ7sbsR3+L3s8QL0VtCuja+Iax3EhqAEgluSWPJezSDLyns7Ds4DGRyoq5+eIU7UDang==
-  dependencies:
-    multiaddr "^8.0.0"
-
-mafmt@^8.0.1:
+mafmt@^8.0.0, mafmt@^8.0.1, mafmt@^8.0.4:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/mafmt/-/mafmt-8.0.4.tgz#5b158a28bd800fb8d0e5c28bd9ee15120bed2a61"
   integrity sha512-wwZ5+PU0vQw10kwQRyZin1Z0dqVOp0BnYlX1xvXHS2fmLwrrQCfU1+3tlW5MRcihUwGz1virnVhbRAU1biKfiw==
@@ -9794,7 +9800,7 @@ multicodec@~0.5.0, multicodec@~0.5.1:
   dependencies:
     varint "^5.0.0"
 
-multihashes@^3.0.1, multihashes@^3.1.0, multihashes@^3.1.1:
+multihashes@^3.0.1, multihashes@^3.1.0, multihashes@^3.1.1, multihashes@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/multihashes/-/multihashes-3.1.2.tgz#ffa5e50497aceb7911f7b4a3b6cada9b9730edfc"
   integrity sha512-AP4IoV/YzkNrfbQKZE3OMPibrmy350OmCd6cJkwyM8oExaXIlOY4UnOOVSQtAEuq/LR01XfXKCESidzZvSwHCQ==
