@@ -92,7 +92,7 @@
     "firefox-addons-add-update-version": "1.0.1",
     "fs-promise": "2.0.3",
     "get-firefox": "5.0.0",
-    "husky": "5.0.9",
+    "husky": "5.1.1",
     "ignore-loader": "0.1.2",
     "ignore-styles": "5.0.1",
     "ipfs-or-gateway": "2.1.0",
