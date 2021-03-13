@@ -83,7 +83,7 @@
     "@babel/preset-env": "7.13.10",
     "babel-loader": "8.2.2",
     "babel-plugin-syntax-async-generators": "6.13.0",
-    "chai": "4.3.3",
+    "chai": "4.3.4",
     "cross-env": "7.0.3",
     "css-loader": "5.1.2",
     "download-cli": "1.1.1",
