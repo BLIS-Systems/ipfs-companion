@@ -6519,10 +6519,10 @@ ipfs-http-gateway@^0.3.2:
     uint8arrays "^2.1.3"
     uri-to-multiaddr "^4.0.0"
 
-ipfs-http-response@0.6.1, ipfs-http-response@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/ipfs-http-response/-/ipfs-http-response-0.6.1.tgz#fa1fc685264318112481195898f56178522c57b8"
-  integrity sha512-tfvgB0xtciDyIsjrpAooyLvj28rKsnFXAOcPjbWdB8atejo9Rh96bkcHa+mq51KZLo0VpAUYJCVCV38gcIpObQ==
+ipfs-http-response@0.6.2, ipfs-http-response@^0.6.0:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/ipfs-http-response/-/ipfs-http-response-0.6.2.tgz#1a7164d5c3d529ddebab01c327f24b9d0bb7e361"
+  integrity sha512-ouJlAdDC3clOzMlJbYQGNIxfj73BG9YGAxwSNM50wIZRl6WMAILlKVCuhJei0PsNTezbZHgDFx1WkqHff0HqDQ==
   dependencies:
     debug "^4.1.1"
     file-type "^16.0.0"
@@ -6532,7 +6532,7 @@ ipfs-http-response@0.6.1, ipfs-http-response@^0.6.0:
     it-reader "^2.1.0"
     it-to-stream "^0.1.1"
     mime-types "^2.1.27"
-    multihashes "^3.0.1"
+    multihashes "^4.0.2"
     p-try-each "^1.0.1"
 
 ipfs-http-server@^0.3.4:
