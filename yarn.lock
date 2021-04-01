@@ -4821,7 +4821,7 @@ event-to-promise@0.8.0:
   resolved "https://registry.yarnpkg.com/event-to-promise/-/event-to-promise-0.8.0.tgz#4b84f11772b6f25f7752fc74d971531ac6f5b626"
   integrity sha1-S4TxF3K28l93Uvx02XFTGsb1tiY=
 
-eventemitter3@^4.0.4:
+eventemitter3@^4.0.4, eventemitter3@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
@@ -10449,7 +10449,15 @@ p-memoize@4.0.1:
     mem "^6.0.1"
     mimic-fn "^3.0.0"
 
-p-queue@6.6.2, p-queue@^6.0.0, p-queue@^6.2.1, p-queue@^6.3.0, p-queue@^6.6.1:
+p-queue@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-7.0.0.tgz#8e0954a699f41b2b39b2f38a0253b67daa723612"
+  integrity sha512-Nm7BFnoAFw2BA6EdIbblm/HjTyagQQqOijAaT2jnGDz/wjn2dwnOk6GEiVlQvHfCJwcXFr2evMpkghLNZsonAQ==
+  dependencies:
+    eventemitter3 "^4.0.7"
+    p-timeout "^4.1.0"
+
+p-queue@^6.0.0, p-queue@^6.2.1, p-queue@^6.3.0, p-queue@^6.6.1:
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-6.6.2.tgz#2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426"
   integrity sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==
