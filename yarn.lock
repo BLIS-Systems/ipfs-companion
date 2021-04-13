@@ -5109,10 +5109,10 @@ filenamify@^2.0.0:
     strip-outer "^1.0.0"
     trim-repeated "^1.0.0"
 
-filesize@6.1.0, filesize@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/filesize/-/filesize-6.1.0.tgz#e81bdaa780e2451d714d71c0d7a4f3238d37ad00"
-  integrity sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg==
+filesize@6.2.1, filesize@^6.1.0:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/filesize/-/filesize-6.2.1.tgz#e14ee29440d24bc82bca41f4a740d4e0397e79ac"
+  integrity sha512-neMilKeMJQ0zUWuxAciRVhtncuxF/Gkhig4+8FrL4g7ppqN7JEGRb1uZFjVid7OJk7CE3ulZuO7V+nB2WDJW+A==
 
 fill-range@^7.0.1:
   version "7.0.1"
