@@ -160,7 +160,7 @@
     "tar-stream": "2.2.0",
     "timers-browserify-full": "0.0.1",
     "uri-to-multiaddr": "4.0.0",
-    "webextension-polyfill": "0.7.0",
+    "webextension-polyfill": "0.8.0",
     "webrtc-ips": "0.2.0"
   },
   "engines": {
