@@ -13464,7 +13464,15 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-uri-to-multiaddr@4.0.0, uri-to-multiaddr@^4.0.0:
+uri-to-multiaddr@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/uri-to-multiaddr/-/uri-to-multiaddr-5.0.0.tgz#82300ce253e1d0c83592f83bf43261fd14d7b6dc"
+  integrity sha512-jc4ccwll+isxjw+UaI8t9fQur6tjtGnqFitIc3tM9UhpBQg6CnvWMHEBisK4NCN4DF9abHprz2Ca81T3RgrMCQ==
+  dependencies:
+    is-ip "^3.1.0"
+    multiaddr "^9.0.1"
+
+uri-to-multiaddr@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/uri-to-multiaddr/-/uri-to-multiaddr-4.0.0.tgz#ec2e113811674ca297ae6f278cf5994e29813d61"
   integrity sha512-6zQ1uBlE+F//46CBA3lx3vBMhybSvdGJqgNyQPobSDsWGrDDdmJM/f95GPaswXAGFlRHPqOjrGKT11IcKmIfaA==
