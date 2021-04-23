@@ -141,7 +141,7 @@
     "ipfs-postmsg-proxy": "3.1.1",
     "ipfsx": "0.17.0",
     "is-fqdn": "2.0.1",
-    "is-ipfs": "4.0.0",
+    "is-ipfs": "5.0.0",
     "is-svg": "4.3.1",
     "it-to-stream": "1.0.0",
     "lru-cache": "6.0.0",
