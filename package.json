@@ -105,7 +105,7 @@
     "raw-loader": "4.0.2",
     "request-progress": "3.0.0",
     "shx": "0.3.3",
-    "simple-progress-webpack-plugin": "1.1.2",
+    "simple-progress-webpack-plugin": "2.0.0",
     "sinon": "10.0.1",
     "sinon-chrome": "3.0.1",
     "standard": "16.0.3",
