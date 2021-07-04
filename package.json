@@ -146,7 +146,7 @@
     "it-to-stream": "1.0.0",
     "lru-cache": "6.0.0",
     "merge-options": "3.0.4",
-    "mime-types": "2.1.30",
+    "mime-types": "2.1.31",
     "multiaddr": "9.0.1",
     "multiaddr-to-uri": "7.0.0",
     "p-memoize": "4.0.1",
