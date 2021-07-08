@@ -9724,12 +9724,12 @@ ms@2.1.3, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-multiaddr-to-uri@7.0.0, multiaddr-to-uri@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/multiaddr-to-uri/-/multiaddr-to-uri-7.0.0.tgz#9bed2361e3eb7c18507e35204067bef98db8ac8e"
-  integrity sha512-VbscDpLcbV0m25tJqfnZSfbjVUuNlPa4BbD5l/7me1t0lc3SWI0XAoO5E/PNJF0e1qUlbdq7yjVFEQjUT+9r0g==
+multiaddr-to-uri@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/multiaddr-to-uri/-/multiaddr-to-uri-8.0.0.tgz#65efe4b1f9de5f6b681aa42ff36a7c8db7625e58"
+  integrity sha512-dq4p/vsOOUdVEd1J1gl+R2GFrXJQH8yjLtz4hodqdVbieg39LvBOdMQRdQnfbg5LSM/q1BYNVf5CBbwZFFqBgA==
   dependencies:
-    multiaddr "^9.0.1"
+    multiaddr "^10.0.0"
 
 multiaddr-to-uri@^6.0.0:
   version "6.0.0"
@@ -9738,7 +9738,14 @@ multiaddr-to-uri@^6.0.0:
   dependencies:
     multiaddr "^8.0.0"
 
-multiaddr@6.1.0, multiaddr@^4.0.0, multiaddr@^5.0.0, multiaddr@^6.1.0, multiaddr@^8.0.0, multiaddr@^8.1.0, multiaddr@^8.1.1, multiaddr@^8.1.2, multiaddr@^9.0.1:
+multiaddr-to-uri@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/multiaddr-to-uri/-/multiaddr-to-uri-7.0.0.tgz#9bed2361e3eb7c18507e35204067bef98db8ac8e"
+  integrity sha512-VbscDpLcbV0m25tJqfnZSfbjVUuNlPa4BbD5l/7me1t0lc3SWI0XAoO5E/PNJF0e1qUlbdq7yjVFEQjUT+9r0g==
+  dependencies:
+    multiaddr "^9.0.1"
+
+multiaddr@6.1.0, multiaddr@^10.0.0, multiaddr@^4.0.0, multiaddr@^5.0.0, multiaddr@^6.1.0, multiaddr@^8.0.0, multiaddr@^8.1.0, multiaddr@^8.1.1, multiaddr@^8.1.2, multiaddr@^9.0.1:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/multiaddr/-/multiaddr-6.1.0.tgz#1f93afce58a33db5cc32a5917d8a14105d94330e"
   integrity sha512-+XTP3OzG2m6JVcjxA9QBmGDr0Vk8WwnohC/fCC3puXb5qJqfJwLVJLEtdTc6vK7ri/hw+Nn4wyT4LkZaPnvGfQ==
