@@ -159,7 +159,7 @@
     "tachyons": "4.12.0",
     "tar-stream": "2.2.0",
     "timers-browserify-full": "0.0.1",
-    "uri-to-multiaddr": "5.0.0",
+    "uri-to-multiaddr": "6.0.0",
     "webextension-polyfill": "0.8.0",
     "webrtc-ips": "0.2.0"
   },
